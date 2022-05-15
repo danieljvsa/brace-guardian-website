@@ -1,0 +1,52 @@
+.ms-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 10rem;
+}
+
+.ms-center p{
+    font-family: "Roboto", sans-serif;
+    margin: 1rem 0;
+    line-height: 1.7;
+    color: #404046;
+}
+
+.ms-center h2{
+    color: #404040;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.mission ul li{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7;
+    color: #404046;
+    
+}
+
+
+
+.mission ul li::before {
+        content: "\2022";
+        color: #0196d1;
+        width: 1em;
+        margin-left: 1rem;
+        display: inline;
+        vertical-align: top;
+        margin-right: 11px;
+
+}
+
+.mission h3{
+    color: #404040;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.history h3{
+    color: #404040;
+    font-size: 24px;
+    line-height: 1.2;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/ms-center.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/de306f5493.js" crossorigin="anonymous"></script>
@@ -33,44 +34,28 @@
             ☰
         </a>       
     </div>
+    <div class="ms-center">
+        <h2>The bracelet</h2> <br> 
+        <div class="history">
+            <h3 id="goal">The goal of the bracelet</h3> 
+            <p> Our team is developing a bracelet that can make life easier for both nurses and MS
+                patients. The project consists of creating a smart bracelet that will automatically detect the fall
+                of patients on each ward and send an alert to the nurses in charge, so that they can quickly find
+                out what happened and quickly go and help the person in question. <br> <br>
+                The alert issued by the bracelet gives the nurses three types of information, the time and location of the incident, and
+                identifies the patient with whom the incident occurred. Besides the automatic alert, if another
+                type of emergency happens, the alarm can be activated by the patient himself, to ask for help
+                for something. <br> <br>
+                Finally, with the connection to a database, it is still possible to understand the
+                patient's medical history with information such as the number of falls of the patient in a certain
+                period.
+            </p>
+        </div>
+        <br>
+        <img src="https://miro.medium.com/max/707/0*FLgrZjZl8gJIull3.jpg" alt="">
+        <br>
+    </div>
     
-    <div class="slideshow-container">
-        <div class="mySlides fade">            
-            <img src="https://mscenter.be/sites/default/files/styles/flexslider_homepage/public/KVDS-20160603-142206-0711-NIKON%20D800.jpg?itok=N-Wa-G_r" style="width:100%">           
-        </div>
-        <div class="mySlides fade">           
-            <img src="https://mscenter.be/sites/default/files/styles/flexslider_homepage/public/beeld1.jpg?itok=KgUEFCY2" style="width:100%">            
-        </div>
-        <div class="mySlides fade">           
-            <img src="/assets/nerve.jpg" style="width:100%">            
-        </div>
-    </div>
-    <div class="cards">
-        <div class="card">
-            <img src="/assets/news.png" alt="" srcset="" />
-            <h4>News 1</h4> 
-            <p>Content</p>
-            <button>Read more</button>
-        </div>
-        <div class="card">
-            <img src="/assets/news.png" alt="" srcset="" />
-            <h4>News 1</h4> 
-            <p>Content</p>
-            <button>Read more</button>
-        </div>
-        <div class="card">
-            <img src="/assets/news.png" alt="" srcset="" />
-            <h4>News 1</h4> 
-            <p>Content</p>
-            <button>Read more</button>
-        </div>
-        <div class="card">
-            <img src="/assets/news.png" alt="" srcset="" />
-            <h4>News 1</h4> 
-            <p>Content</p>
-            <button>Read more</button>
-        </div>
-    </div>
     <div class="contacts">
         <div class="entities">
             <h3>Entities</h3>
@@ -92,7 +77,7 @@
         </div>
         <div class="contact-us">
             <h3>Doubts</h3>
-            
+            <form action="">
                 
                 <input type="text" id="name" name="name" placeholder="Name">           
                 
@@ -102,7 +87,7 @@
             
                 <input type="submit" value="Submit" onclick="sendEmail(); return false">
             
-            
+            </form>
         </div>
     </div>
     <script src="/js/carrousel.js"></script>

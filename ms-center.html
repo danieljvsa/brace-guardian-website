@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/ms-center.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/de306f5493.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Brace Guardian</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="/assets/braceguardian_logo.png" width="170px" height="49px"/></a>
+        </div>
+        <ul class="menu">
+            <li><a href="multiple-sclerosis.html">Multiple Sclerosis</a></li>
+            <div class="dropdown">
+                <li><a href="bracelet.html">Bracelet</a></li>
+                <div class="topics">
+                    <a href="#">What it's purpose</a>
+                    <a href="#">Components</a>
+                </div>
+            </div>
+            <li><a href="our-goal.html">Our Goal</a></li>
+            <li><a href="ms-center.html">MS Center</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+            ☰
+        </a>       
+    </div>
+    <div class="ms-center">
+        <h2>MS Center</h2> <br> 
+        <div class="history">
+            <h3>History</h3> 
+            <p> The beginning of the MS Center's goes back to 1957, when Professor L. van Bogaert founded the
+                "Belgian Study Group for Multiple Sclerosis" within the Belgian Neurological Association. This
+                project was undertaken to provide a consultation service for people with MS and to stimulate
+                scientific research on this topic. <br> <br>
+                As it developed, Dr. Ch. J. Ketelaer, in charge, realized that it would be important to have a center 
+                that could hospitalize and treat patients, something thatwas possible after a collaboration with the study 
+                group of the Belgian Multiple Sclerosis League and a request accepted by the Ministry of Public Health. 
+                With this, in 1960 the first specialized hospital for the diagnosis, treatment and rehabilitation of 
+                people with MS and related diseases came into being. <br> <br>
+                This hospital was named "National Schiftings- en Readaptatiecentrum voor
+                Multiple Sclerosis vzw" (National Screening and Readaptation Center for Multiple Sclerosis),
+                however, in 1996 its name was changed to "National Multiple Sclerosis Center vzw", abbreviated
+                to NMSC. <br> <br>
+            </p>
+        </div>
+        <div class="mission">
+            <h3>Mission and vision</h3> 
+            <p>
+                “The National MS Centre provides comprehensive, safe, specialist clinical and integrated care
+                plans for people with MS and other chronic neurological disorders.” <br>
+                The MS Center is committed to 4 very important aspects:
+            </p>
+            <ul>
+                <li>Comprehensive approach - as medical, therapeutic, and nursing staff oversee all
+                    stages of the care process that the person with MS may go through;</li>
+                <li>Safe - it is committed to providing a safe, high-quality environment in all its processes;</li>
+                <li>World-class clinic - the MS Center has over 20 years of clinical scientific research and
+                    its medical and therapeutic care policies are based on it;</li>
+                <li>Integrated customised care plans - MS symptoms chenge from person to person, so a
+                    patient-focused approach is very important, so the MS Center builds on that approach
+                    to understand what care is most appropriate to provide each patient.
+                </li>
+            </ul>
+            <p>For more information, visit the official MS Center website: <a href="https://mscenter.be/en" style="color: #0196d1; cursor: pointer">https://mscenter.be/en</a></p> 
+        </div>
+        <br>
+        <img src="https://mscenter.be/sites/default/files/styles/flexslider_homepage/public/KVDS-20160603-142206-0711-NIKON%20D800.jpg?itok=N-Wa-G_r" alt="">
+        <br>
+    </div>
+    
+    <div class="contacts">
+        <div class="entities">
+            <h3>Entities</h3>
+            <img src="https://www.ispgaya.pt/site/img/ispgaya-logo.png" alt="ISPGAYA" srcset="" width="170px" height="49px"/>
+            <img src="" alt="" srcset=""/>
+            <img src="" alt="" srcset=""/>
+            <img src="https://mscenter.be/sites/default/files/MScenter_v3.jpg" alt="MS Center" srcset="" width="170px" height="49px" />
+        </div>
+        <div class="social-media">
+            <h3>Social Media</h3>
+            <div class="social">
+                <img src="/assets/facebook.png" alt="" width="32px" height="32px">
+                <p>Facebook</p>
+            </div>
+            <div class="social">
+                <img src="/assets/instagram.png" alt="" width="32px" height="32px">
+                <p>Instagram</p>
+            </div>
+        </div>
+        <div class="contact-us">
+            <h3>Doubts</h3>
+            <form action="">
+                
+                <input type="text" id="name" name="name" placeholder="Name">           
+                
+                <input type="text" id="email" name="email" placeholder="Email">                                           
+                
+                <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit" onclick="sendEmail(); return false">
+            
+            </form>
+        </div>
+    </div>
+    <script src="/js/carrousel.js"></script>
+</body>
+</html>
