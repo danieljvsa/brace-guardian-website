@@ -1,8 +1,7 @@
 let slideIndex = 0;
 let clicks = 0;
 showSlides();
-showMenu()
-sendEmail()
+
 
 function showSlides() {
   let i;

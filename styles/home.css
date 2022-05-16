@@ -161,6 +161,7 @@ button:focus, input:focus {
 
 .entities img{
     width: 100%;
+    margin: 1rem 0;
 }
 
 .social-media h3{
