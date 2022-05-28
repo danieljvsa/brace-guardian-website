@@ -1,22 +1,26 @@
 .ps-card{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
+    flex-direction: column; 
     padding: 1rem 2rem;
     /*background-color: #0196d1;*/
 }
 
 .info p{
     font-family: "Roboto", sans-serif;
-    line-height: 0.5;
+    line-height: 1.4;
     color: #404040;
+    font-size: 18px;
     margin-left: 2rem;
 }
 
+
+
 .persons-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;   
-    flex-wrap: wrap; 
+    flex-direction: column;
     padding: 2rem 2rem;
 }
